@@ -1,4 +1,4 @@
-# SDF for glsl primitives #
+# Modeling with distance fields #
 A collection of distance field equations for modeling and ray-marching basic primitives shapes. Primitives can be combined and modified to create more complex shapes using [glsl-sdf-ops](https://github.com/marklundin/glsl-sdf-ops).
 
 The library is [glslify](https://github.com/stackgl/glslify) compatible
