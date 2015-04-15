@@ -1,7 +1,7 @@
 # SDF for glsl primitives #
-A collection of [glslify](https://github.com/stackgl/glslify) compatible signed distance functions for basic primitives. Most of these have been lifted from iQ's [distance functions](http://iquilezles.org/www/articles/distfunctions/distfunctions.htm) page.
+A collection of distance field equations for modeling and ray-marching basic primitives shapes. Primitives can be combined and modified to create more complex shapes using [glsl-sdf-ops](https://github.com/marklundin/glsl-sdf-ops).
 
-These primitives can be combined and modified using distance field operations library [glsl-sdf-ops](https://github.com/marklundin/glsl-sdf-ops).
+The library is [glslify](https://github.com/stackgl/glslify) compatible
 
 ## Usage ##
 ```
@@ -63,7 +63,4 @@ vec2 doModel(vec3 p) {
 ### Unsigned Triangle ###
 `udTriudTriangle( vec3 p, vec3 a, vec3 b, vec3 c )`
 
-
-
-
-
+Most of these equations are taken from iQ's excellent [distance functions](http://iquilezles.org/www/articles/distfunctions/distfunctions.htm) page.
