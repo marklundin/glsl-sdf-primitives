@@ -1,4 +1,4 @@
-# Glsl SDF Primitives #
+# Distance Field Equations for basic primitives #
 A collection of [glslify](https://github.com/stackgl/glslify) compatible signed distance functions for basic primitives. Most of these have been lifted from iQ's [distance functions](http://iquilezles.org/www/articles/distfunctions/distfunctions.htm) page.
 
 These primitives can be combined and modified using distance field operations library [glsl-sdf-ops](https://github.com/marklundin/glsl-sdf-ops).
