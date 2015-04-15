@@ -12,5 +12,13 @@
     "stack.gl"
   ],
   "author": "Mark Lundin",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marklundin/glsl-sdf-primitives.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marklundin/glsl-sdf-primitives/issues"
+  },
+  "homepage": "https://github.com/marklundin/glsl-sdf-primitives"
 }
