@@ -20,51 +20,49 @@ vec2 doModel(vec3 p) {
 }
 ```
 
-## Primitives ##
+### Primitives ###
 
-### Signed Sphere ###
+#### Signed Sphere ####
 `sdSphere( vec3 position, float radius )`
 
-### Signed Box ###
+#### Signed Box ####
 `sdBox( vec3 position, vec3 dimension )`
 
-### Unsigned Box ###
+#### Unsigned Box ####
 `sdBox( vec3 position, vec3 dimension )`
 
-### Unsigned Rounded Box ###
+#### Unsigned Rounded Box ####
 `sdBox( vec3 position, vec3 dimension, float rounding )`
 
-### Signed Plane ###
+#### Signed Plane ####
 `sdPlane( vec3 position, vec4 planeEquation )`
 
-### Signed Torus ###
+#### Signed Torus ####
 `sdTorus( vec3 position, float hole )`
 
-### Signed Capped Cone ###
+#### Signed Capped Cone ####
 `sdCappedCone( vec3 position, vec2 dimension )`
 
-### Signed Capped Cylinder ###
+#### Signed Capped Cylinder ####
 `sdCappedCylinder( vec3 position, vec2 dimension )`
 
-### Signed Capsule ###
+#### Signed Capsule ####
 `sdCapsule( vec3 position, vec3 a, vec3 b, float radius )`
 
-### Signed Cone ###
+#### Signed Cone ####
 `sdCone( vec3 position, vec2 dimension )`
 
-### Signed Cylinder ###
+#### Signed Cylinder ####
 `sdCylinder( vec3 position, vec2 dimension )`
 
-### Signed Hexagonal Prism ###
+#### Signed Hexagonal Prism ####
 `sdHexPrism( vec3 position, vec2 dimension )`
 
-### Signed Triangle Prism ###
+#### Signed Triangle Prism ####
 `sdTriPrism( vec3 position, vec2 dimension )`
 
-### Unsigned Quadrilateral ###
+#### Unsigned Quadrilateral ####
 `udQuad( vec3 p, vec3 a, vec3 b, vec3 c, vec3 d )`
 
-### Unsigned Triangle ###
+#### Unsigned Triangle ####
 `udTriudTriangle( vec3 p, vec3 a, vec3 b, vec3 c )`
-
-Most of these equations are taken from iQ's excellent [distance functions](http://iquilezles.org/www/articles/distfunctions/distfunctions.htm) page.
