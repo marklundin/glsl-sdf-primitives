@@ -21,3 +21,5 @@ float udQuad( vec3 p, vec3 a, vec3 b, vec3 c, vec3 d )
      :
      dot(nor,pa)*dot(nor,pa)/dot2(nor) );
 }
+
+#pragma glslify: export(udQuad)
