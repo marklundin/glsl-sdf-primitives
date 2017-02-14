@@ -29,10 +29,10 @@ vec2 doModel(vec3 p) {
 `sdBox( vec3 position, vec3 dimension )`
 
 #### Unsigned Box ####
-`sdBox( vec3 position, vec3 dimension )`
+`udBox( vec3 position, vec3 dimension )`
 
 #### Unsigned Rounded Box ####
-`sdBox( vec3 position, vec3 dimension, float rounding )`
+`udRoundBox( vec3 position, vec3 dimension, float rounding )`
 
 #### Signed Plane ####
 `sdPlane( vec3 position, vec4 planeEquation )`
