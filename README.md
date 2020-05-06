@@ -16,7 +16,7 @@ vec2 doModel(vec3 p);
 #pragma glslify: sdTorus 	= require('glsl-sdf-primitives/sdTorus')
 
 vec2 doModel(vec3 p) {
-  return vec2( sdTorus( p, vec2( 0.20, 0.05 )), 0.0 ));
+  return vec2( sdTorus( p, vec2( 0.20, 0.05 )), 0.0 );
 }
 ```
 
